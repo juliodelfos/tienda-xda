@@ -128,11 +128,39 @@ th {
   margin-right: 2rem;
 }
 
+/* Main section */
 .main__title {
   color: #0c0910;
   font-family: "Old Standard TT", serif;
   font-weight: 700;
   font-size: 50px;
+  text-transform: uppercase;
+  padding-top: 4rem;
+}
+.main__paragraph {
+  color: #646266;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.main__button {
+  border: 1px solid #0c0910;
+  color: #0c0910;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  background-color: #fff;
+}
+.main__button--primary {
+  font-size: 18px;
+  padding: 1rem 2rem;
+}
+.main__button--primary:hover {
+  border: 1px solid #646266;
+  color: #646266;
+}
+.main__button--primary:focus {
+  border: 1px solid #a6a5a8;
+  color: #a6a5a8;
 }
 
 /*# sourceMappingURL=main.css.map */
