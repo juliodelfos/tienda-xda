@@ -76,4 +76,26 @@ th {
   padding: 0;
 }
 
+/* Navigation */
+.header {
+  height: 5rem;
+  background-color: #fff;
+}
+
+.navbar__brand {
+  font-family: "Old Standard TT", serif;
+  font-size: 30px;
+  color: #fff;
+  background-color: #0c0910;
+  text-decoration: none;
+}
+.navbar__list {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: #0c0910;
+}
+.navbar__item {
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=main.css.map */

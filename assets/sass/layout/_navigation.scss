@@ -1,0 +1,24 @@
+/* Navigation */
+
+.header {
+    height: 5rem;
+    background-color: $white;
+}
+
+.navbar {
+    &__brand {
+        font-family: $old-standard;
+        font-size: $xx-large;
+        color: $white;
+        background-color: $smoky-black;
+        text-decoration: none;
+    }
+    &__list {
+        font-family: $raleway;
+        font-size: $x-large;
+        color: $smoky-black;
+    }
+    &__item {
+        text-decoration: none;
+    }
+}
