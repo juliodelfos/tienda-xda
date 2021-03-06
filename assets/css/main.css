@@ -78,24 +78,61 @@ th {
 
 /* Navigation */
 .header {
-  height: 5rem;
+  height: 6rem;
   background-color: #fff;
+  display: flex;
 }
 
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: space-around;
+  align-items: center;
+}
 .navbar__brand {
   font-family: "Old Standard TT", serif;
   font-size: 30px;
   color: #fff;
   background-color: #0c0910;
   text-decoration: none;
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .navbar__list {
   font-family: "Raleway", sans-serif;
   font-size: 20px;
   color: #0c0910;
+  list-style-type: none;
+  margin-left: 60rem;
 }
 .navbar__item {
   text-decoration: none;
+  display: inline-block;
+  color: #0c0910;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+.navbar__link {
+  text-decoration: none;
+}
+.navbar__link:visited {
+  color: #0c0910;
+}
+.navbar__link--mr {
+  margin-right: 2rem;
+}
+
+.main__title {
+  color: #0c0910;
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-size: 50px;
 }
 
 /*# sourceMappingURL=main.css.map */
