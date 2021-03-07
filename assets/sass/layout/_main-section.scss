@@ -63,7 +63,6 @@
         font-weight: $old-regular;
     }
     &__form-input-container {
-        padding-top: 0.4rem;
     }
     &__form-input {
         color: $smoky-black;
@@ -71,8 +70,9 @@
         font-family: $raleway;
         font-weight: $raleway-regular;
         font-size: $small;
-        padding: 0.5rem;
+        padding: 0.5rem 5rem 0.5rem 0;
         border: none;
+        margin-top: 0.4rem;
     }
     &__img {
         width: 55vw;
@@ -120,4 +120,16 @@ div {
     background-color: $smoky-black;
     height: 25vh;
     padding-left: 4rem;
+}
+
+.orange-column {
+    height: 100vh;
+    width: 4vw;
+    padding-top: 43rem;
+    font-size: $x-large;
+    font-weight: $old-bold;
+}
+
+.test {
+    transform: rotate(90deg);
 }

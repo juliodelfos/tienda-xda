@@ -131,7 +131,7 @@ th {
   color: #0c0910;
 }
 .navbar__link--mr {
-  margin-right: 2rem;
+  padding-right: 2rem;
 }
 
 /* Main section */
@@ -193,17 +193,15 @@ th {
   font-size: 18px;
   font-weight: 400;
 }
-.main__form-input-container {
-  padding-top: 0.4rem;
-}
 .main__form-input {
   color: #0c0910;
   background-color: #fff;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 14px;
-  padding: 0.5rem;
+  padding: 0.5rem 5rem 0.5rem 0;
   border: none;
+  margin-top: 0.4rem;
 }
 .main__img {
   width: 55vw;
@@ -250,6 +248,18 @@ div {
   background-color: #0c0910;
   height: 25vh;
   padding-left: 4rem;
+}
+
+.orange-column {
+  height: 100vh;
+  width: 4vw;
+  padding-top: 43rem;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.test {
+  transform: rotate(90deg);
 }
 
 /*# sourceMappingURL=main.css.map */
