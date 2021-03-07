@@ -1,19 +1,32 @@
 /* Main section */
 
 .main {
-    &__title {
+    // height: 100vh;
+    &__text-area {
+        // width: 40vw;
+        height: 75vh;
+        display: inline-block;
+        padding-left: 4rem;
+        padding-top: 10rem;
+    }
+    &__text {
         color: $smoky-black;
+    }
+    &__title {
         font-family: $old-standard;
         font-weight: $old-bold;
         font-size: $xxx-large;
         text-transform: uppercase;
-        padding-top: 4rem;
     }
     &__paragraph {
-        color: $granite-gray;
         font-family: $raleway;
         font-size: $large;
         font-weight: $raleway-regular;
+        padding: 1rem 0 1.5rem 0;
+        line-height: 1.6;
+    }
+    &__button-container {
+        padding-bottom: 3rem;
     }
     &__button {
         border: 1px solid $smoky-black;
@@ -34,4 +47,77 @@
         border: 1px solid $quick-silver;
         color: $quick-silver;
     }
+    &__form {
+        background-color: $smoky-black;
+        color: $white;
+        font-family: $old-standard;
+        // height: 40vh;
+    }
+    &__form-title {
+        font-weight: $old-bold;
+        font-size: $xx-large;
+        padding: 1.5rem 0;
+    }
+    &__form-mail {
+        font-size: $large;
+        font-weight: $old-regular;
+    }
+    &__form-input-container {
+        padding-top: 0.4rem;
+    }
+    &__form-input {
+        color: $smoky-black;
+        background-color: $white;
+        font-family: $raleway;
+        font-weight: $raleway-regular;
+        font-size: $small;
+        padding: 0.5rem;
+        border: none;
+    }
+    &__img {
+        width: 55vw;
+        height: 100vh;
+        display: inline-block;
+        background: url(/assets/images/principal.jpg);
+    }
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.blue-column {
+    height: 100vh;
+    width: 38vw;
+}
+
+.green-column {
+    height: 100vh;
+    width: 58vw;
+    background: url(/assets/images/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div {
+    display: inline;
+}
+
+.form {
+    color: $white;
+    font-family: $old-standard;
+    background-color: $smoky-black;
+    height: 25vh;
+    padding-left: 4rem;
 }

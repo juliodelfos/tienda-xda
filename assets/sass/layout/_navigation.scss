@@ -1,9 +1,11 @@
 /* Navigation */
 
 .header {
+    width: 100vw;
     height: 6rem;
     background-color: $white;
     display: flex;
+    position: fixed;
 }
 
 .navbar {
@@ -30,7 +32,6 @@
         font-size: $x-large;
         color: $smoky-black;
         list-style-type: none;
-        margin-left: 60rem;
     }
     &__item {
         text-decoration: none;
