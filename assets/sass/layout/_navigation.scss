@@ -1,21 +1,13 @@
 /* Navigation */
 
-.header {
-    width: 100vw;
-    height: 6rem;
-    background-color: $white;
-    display: flex;
-    position: fixed;
-}
-
 .navbar {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-content: space-around;
     align-items: center;
+    justify-content: space-between;
     &__brand {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-family: $old-standard;
         font-size: $xx-large;
         color: $white;
@@ -23,23 +15,16 @@
         text-decoration: none;
         width: 6rem;
         height: 6rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     &__list {
+        display: flex;
+        justify-content: flex-end;
         font-family: $raleway;
-        font-size: $x-large;
-        color: $smoky-black;
-        list-style-type: none;
-    }
-    &__item {
-        text-decoration: none;
-        display: inline-block;
         color: $smoky-black;
         font-size: $medium;
-        font-family: $raleway;
         font-weight: $raleway-bold;
+        list-style-type: none;
+        text-decoration: none;
     }
     &__link {
         text-decoration: none;
@@ -48,6 +33,6 @@
         color: $smoky-black;
     }
     &__link--mr {
-        padding-right: 2rem;
+        padding: 0 2rem;
     }
 }
