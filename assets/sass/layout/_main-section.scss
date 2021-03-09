@@ -5,7 +5,7 @@
     flex-direction: row;
     height: 100vh;
     &__text-container {
-        padding-top: 10rem;
+        // padding-top: 7em;
         flex-basis: 40vw;
         color: $smoky-black;
         display: flex;
@@ -13,7 +13,7 @@
         justify-content: space-between;
     }
     &__text {
-
+        // padding-top: 7em;
     }
     &__title {
         font-family: $old-standard;
@@ -95,7 +95,7 @@
     /* Foto */
     &__photo {
         flex-basis: 60vw;
-        padding-top: 5rem;
+        // padding-top: 5rem;
     }
     &__photo-img {
         height: 100vh;

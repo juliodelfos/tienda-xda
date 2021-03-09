@@ -87,7 +87,6 @@ th {
   align-items: center;
   background-color: #fff;
   height: 5rem;
-  position: fixed;
 }
 .navbar__brand {
   display: flex;
@@ -129,7 +128,6 @@ th {
   /* Foto */
 }
 .main__text-container {
-  padding-top: 10rem;
   flex-basis: 40vw;
   color: #0c0910;
   display: flex;
@@ -208,7 +206,6 @@ th {
 }
 .main__photo {
   flex-basis: 60vw;
-  padding-top: 5rem;
 }
 .main__photo-img {
   height: 100vh;
