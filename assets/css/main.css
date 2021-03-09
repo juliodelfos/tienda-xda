@@ -85,8 +85,9 @@ th {
 .navbar {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid black;
+  background-color: #fff;
   height: 5rem;
+  position: fixed;
 }
 .navbar__brand {
   display: flex;
@@ -127,9 +128,13 @@ th {
   /* Newsletter */
   /* Foto */
 }
-.main__text-area {
-  color: #0c0910;
+.main__text-container {
+  padding-top: 10rem;
   flex-basis: 40vw;
+  color: #0c0910;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .main__title {
   font-family: "Old Standard TT", serif;
@@ -203,9 +208,10 @@ th {
 }
 .main__photo {
   flex-basis: 60vw;
+  padding-top: 5rem;
 }
 .main__photo-img {
-  height: 100%;
+  height: 100vh;
 }
 
 /*# sourceMappingURL=main.css.map */
