@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* SCSS imports */
 /* Variables */
 /* Minireset */
@@ -129,6 +130,7 @@ th {
   flex-direction: row;
   height: 90vh;
   /* Newsletter */
+  /* Botón */
   /* Foto */
 }
 .main__text-container {
@@ -174,6 +176,11 @@ th {
   border: 1px solid #a6a5a8;
   color: #a6a5a8;
 }
+.main__newsletter-container {
+  display: flex;
+  flex-direction: row;
+  height: 30vh;
+}
 .main__newsletter {
   display: flex;
   flex-direction: column;
@@ -181,7 +188,6 @@ th {
   background-color: #0c0910;
   color: #fff;
   font-family: "Old Standard TT", serif;
-  height: 30vh;
   width: 90%;
   padding-bottom: 2rem;
 }
@@ -207,6 +213,27 @@ th {
   background-color: #fff;
   padding: 0.5rem 5rem 0.5rem 0;
   border: none;
+}
+.main__newsletter-bt-container {
+  height: 30vh;
+  width: 10%;
+}
+.main__newsletter-text-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(90deg);
+  font-size: 18px;
+  color: #0c0910;
+  font-weight: 700;
+  height: 100%;
+  width: 100%;
+}
+.main__newsletter-text-button:hover {
+  color: #646266;
+}
+.main__newsletter-text-button:focus {
+  color: #a6a5a8;
 }
 .main__photo {
   flex-basis: 60vw;
