@@ -5,9 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
-        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap" rel="stylesheet">
@@ -18,106 +15,54 @@
 </head>
 
 <body>
-    <!-- Navbar -->
-    <header class="header">
-        <nav class="navbar">
+
+    <!-- Navbar OK -->
+    <nav class="navbar">
+        <div class="navbar__brand-container">
             <a class="navbar__brand" href="#">XDA</a>
-            <div class="navbar__list">
-                <ul class="">
-                    <li class="navbar__item"><a class="navbar__link navbar__link--mr " href="#">Mujer</a></li>
-                    <li class="navbar__item"><a class="navbar__link navbar__link--mr " href="#">Hombre</a></li>
-                    <li class="navbar__item"><a class="navbar__link navbar__link--mr " href="#">Accesorios</a></li>
-                    <li class="navbar__item"><a class="navbar__link " href="#">Blog</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-
-
-    <div class='some-page-wrapper'>
-        <div class='row'>
-            <div class='column'>
-                <div class='blue-column'>
-                    <section class="main__text-area">
-                        <h1 class="main__title">lorem impsum ad valorem</h1>
-                        <p class="main__paragraph">Sed ut perspiciatis omnis iste natus error sit voluptatem accusantium
-                            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo anventore veritatis et
-                            quasi
-                            architecto beatae vitae dicta sunt explicabo.</p>
-                        <div class="main__button-container">
-                            <button type="button" class="main__button main__button--primary">Ir a tienda</button>
-                        </div>
-                    </section>
-                    <section class="form">
-                        <h2 class="main__form-title">Newsletter</h2>
-                        <p class="main__form-mail">Correo Electrónico</p>
-                        <input type="email" placeholder="Ingresa tu correo electrónico" class="main__form-input">
-                    </section>
-                </div>
-            </div>
-            <div class='column'>
-                <div class='orange-column'>
-                    <p class="test">Suscribir</p>
-                </div>
-            </div>
-            <div class='column'>
-                <div class='green-column'>
-                </div>
-            </div>
         </div>
-    </div>
-  
-
+        <div class="navbar__list">
+            <a class="navbar__link navbar__link--mr " href="#">Mujer</a>
+            <a class="navbar__link navbar__link--mr " href="#">Hombre</a>
+            <a class="navbar__link navbar__link--mr " href="#">Accesorios</a>
+            <a class="navbar__link navbar__link--mr" href="#">Blog</a>
+        </div>
+    </nav>
 
     <!-- Main section -->
-    <!-- <main class="main">
-        <div class="main__text-area">
+    <main class="main">
+        <!-- Texto -->
+        <section class="main__text-container">
             <div class="main__text">
-                <h1 class="main__title">lorem impsum ad valorem</h1>
+                <h1 class="main__title">Lorem impsum ad valorem</h1>
                 <p class="main__paragraph">Sed ut perspiciatis omnis iste natus error sit voluptatem accusantium
                     doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo anventore veritatis et quasi
                     architecto beatae vitae dicta sunt explicabo.</p>
                 <div class="main__button-container">
-                    <button type="button" class="main__button main__button--primary">Ir a tienda</button>
+                    <button class="main__button main__button--primary" type="button">Ir a tienda</button>
                 </div>
             </div>
-        </div> -->
-
-    <!-- Newsletter -->
-    <!-- <div class="main__form">
-                <h2 class="main__form-title">Newsletter</h2>
-                <label class="main__form-mail">Correo Electrónico</label>
-                <div class="main__form-input-container">
-                    <input type="email" class="main__form-input" placeholder="Ingresa tu correo electrónico">
+            <!-- Newsletter -->
+            <div class="main__newsletter-container">
+                <div class="main__newsletter">
+                    <h2 class="main__newsletter-title">Newsletter</h2>
+                    <p class="main__newsletter-paragraph">Correo Electrónico</p>
+                    <div class="main__newsletter-input-container">
+                        <input class="main__newsletter-input" type="email"
+                            placeholder="Ingresa tu correo electrónico">
+                    </div>
                 </div>
-            </div> -->
-
-    <!-- <div class="main__text-area">
-            <div class="main__text">
-                <h1 class="main__title">lorem impsum ad valorem</h1>
-                <p class="main__paragraph">Sed ut perspiciatis omnis iste natus error sit voluptatem accusantium
-                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo anventore veritatis et quasi
-                    architecto beatae vitae dicta sunt explicabo.</p>
-                <div class="main__button-container">
-                    <button type="button" class="main__button main__button--primary">Ir a tienda</button>
-                </div>
+                <!-- <div class="main__newsletter-bt-container">
+                    <button type="button" class="main__newsletter-bt"></button>
+                </div> -->
             </div>
-        </div> -->
+        </section>
 
-    <!-- <div class="main__img">
-        </div> -->
-
-    <!-- </main> -->
-
-    <!-- Newsletter -->
-    <!-- <div class="form">
-        <h2 class="form__title">Newsletter</h2>
-        <label class="form__mail">Correo Electrónico</label>
-        <div class="form__input-container">
-            <input type="email" class="form__input" placeholder="Ingresa tu correo electrónico">
-        </div>
-    </div> -->
+        <!-- Foto -->
+        <section class="main__photo">
+            <img class="main__photo-img" alt="" src="/assets/images/principal.jpg">
+        </section>
+    </main>
 
 </body>
 
