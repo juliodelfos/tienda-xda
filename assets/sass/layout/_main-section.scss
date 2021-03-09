@@ -3,7 +3,7 @@
 .main {
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    height: 90vh;
     &__text-container {
         // padding-top: 7em;
         flex-basis: 40vw;
@@ -13,14 +13,13 @@
         justify-content: space-between;
     }
     &__text {
-        // padding-top: 7em;
     }
     &__title {
         font-family: $old-standard;
         font-weight: $old-bold;
         font-size: $xxx-large;
         text-transform: uppercase;
-        padding: 0 2rem 1.5rem 4rem;
+        padding: 5rem 2rem 1.5rem 4rem;
     }
     &__paragraph {
         font-family: $raleway;
@@ -92,12 +91,17 @@
         border: none;
         // margin-top: 0.4rem;
     }
+    &__newsletter-bt-container {
+    }
+    &__newsletter-bt {
+    }
+
     /* Foto */
     &__photo {
         flex-basis: 60vw;
         // padding-top: 5rem;
     }
     &__photo-img {
-        height: 100vh;
+        height: 90vh;
     }
 }
