@@ -85,8 +85,8 @@ th {
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   border-bottom: 1px solid black;
+  height: 5rem;
 }
 .navbar__brand {
   display: flex;
@@ -97,12 +97,11 @@ th {
   color: #fff;
   background-color: #0c0910;
   text-decoration: none;
-  width: 6rem;
-  height: 6rem;
+  width: 5rem;
+  height: 5rem;
 }
 .navbar__list {
-  display: flex;
-  justify-content: flex-end;
+  margin-left: auto;
   font-family: "Raleway", sans-serif;
   color: #0c0910;
   font-size: 16px;
