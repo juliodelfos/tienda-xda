@@ -97,8 +97,10 @@
     &__newsletter-bt-container {
         height: 30vh;
         width: 10%;
-    }
-    &__newsletter-bt {
+        color: $smoky-black;
+        font-weight: $old-bold;
+        background-color: $white;
+        border: none;
     }
     &__newsletter-text-button {
         display: flex;
@@ -106,16 +108,18 @@
         align-items: center;
         transform: rotate(90deg);
         font-size: $large;
-        color: $smoky-black;
-        font-weight: $old-bold;
-        height: 100%;
-        width: 100%;
     }
     &__newsletter-text-button:hover {
         color: $granite-gray;
     }
     &__newsletter-text-button:focus {
         color: $quick-silver;
+    }
+    &__newsletter-button-link {
+        text-decoration: none;
+    }
+    &__newsletter-button-link:visited {
+        color: $smoky-black;
     }
 
     /* Foto */

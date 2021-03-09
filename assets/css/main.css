@@ -217,6 +217,10 @@ th {
 .main__newsletter-bt-container {
   height: 30vh;
   width: 10%;
+  color: #0c0910;
+  font-weight: 700;
+  background-color: #fff;
+  border: none;
 }
 .main__newsletter-text-button {
   display: flex;
@@ -224,16 +228,18 @@ th {
   align-items: center;
   transform: rotate(90deg);
   font-size: 18px;
-  color: #0c0910;
-  font-weight: 700;
-  height: 100%;
-  width: 100%;
 }
 .main__newsletter-text-button:hover {
   color: #646266;
 }
 .main__newsletter-text-button:focus {
   color: #a6a5a8;
+}
+.main__newsletter-button-link {
+  text-decoration: none;
+}
+.main__newsletter-button-link:visited {
+  color: #0c0910;
 }
 .main__photo {
   flex-basis: 60vw;
