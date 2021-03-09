@@ -1,0 +1,8 @@
+/* Photos */
+
+.photo {
+    flex-basis: 60vw;
+    &__img {
+        height: 90vh;
+    }
+}

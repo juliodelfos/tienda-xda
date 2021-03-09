@@ -1,0 +1,26 @@
+/* Botones */
+
+.button {
+    &__container {
+        padding: 0 0 3rem 4rem;
+    }
+    &__bt {
+        color: $smoky-black;
+        font-family: $raleway;
+        font-weight: $raleway-bold;
+        background-color: $white;
+        border: 1px solid $smoky-black;
+    }
+    &__bt--primary {
+        font-size: $large;
+        padding: 1rem 2rem;
+    }
+    &__bt--primary:hover {
+        border: 1px solid $granite-gray;
+        color: $granite-gray;
+    }
+    &__bt--primary:focus {
+        border: 1px solid $quick-silver;
+        color: $quick-silver;
+    }
+}

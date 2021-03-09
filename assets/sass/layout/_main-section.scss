@@ -24,30 +24,8 @@
         font-family: $raleway;
         font-size: $large;
         font-weight: $raleway-regular;
-        padding: 0 2rem 1.5rem 4rem;
+        padding: 0 10rem 1.5rem 4rem;
         line-height: 1.6;
-    }
-    &__button-container {
-        padding: 0 0 3rem 4rem;
-    }
-    &__button {
-        border: 1px solid $smoky-black;
-        color: $smoky-black;
-        font-family: $raleway;
-        font-weight: $raleway-bold;
-        background-color: $white;
-    }
-    &__button--primary {
-        font-size: $large;
-        padding: 1rem 2rem;
-    }
-    &__button--primary:hover {
-        border: 1px solid $granite-gray;
-        color: $granite-gray;
-    }
-    &__button--primary:focus {
-        border: 1px solid $quick-silver;
-        color: $quick-silver;
     }
 
     /* Newsletter */
@@ -92,7 +70,7 @@
         border: none;
     }
 
-    /* Botón */
+    /* Button newsletter */
 
     &__newsletter-bt-container {
         height: 30vh;
@@ -120,13 +98,5 @@
     }
     &__newsletter-button-link:visited {
         color: $smoky-black;
-    }
-
-    /* Foto */
-    &__photo {
-        flex-basis: 60vw;
-    }
-    &__photo-img {
-        height: 90vh;
     }
 }
