@@ -36,6 +36,12 @@
     &__link:visited {
         color: $smoky-black;
     }
+    &__link:hover {
+        color: $smoky-black;
+    }
+    &__link:focus {
+        color: $smoky-black;
+    }
     &__link--mr {
         padding: 0 2rem;
     }
