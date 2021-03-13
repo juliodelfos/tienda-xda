@@ -1,107 +1,317 @@
 /* Main section */
 
-.main {
-    display: flex;
-    flex-direction: row;
-    height: 90vh;
-    &__text-container {
-        // padding-top: 7em;
-        flex-basis: 40vw;
-        color: $smoky-black;
+/* 769 a 1500 en adelante */
+@media screen and (max-width: 1500px) {
+    .main {
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    &__text {
-    }
-    &__title {
-        font-family: $old-standard;
-        font-weight: $old-bold;
-        font-size: $xxx-large;
-        text-transform: uppercase;
-        padding: 5rem 2rem 1.5rem 4rem;
-    }
-    &__paragraph {
-        font-family: $raleway;
-        font-size: $large;
-        font-weight: $raleway-regular;
-        padding: 0 2rem 1.5rem 4rem;
-        line-height: 1.6;
-    }
-    &__button-container {
-        padding: 0 0 3rem 4rem;
-    }
-    &__button {
-        border: 1px solid $smoky-black;
-        color: $smoky-black;
-        font-family: $raleway;
-        font-weight: $raleway-bold;
-        background-color: $white;
-    }
-    &__button--primary {
-        font-size: $large;
-        padding: 1rem 2rem;
-    }
-    &__button--primary:hover {
-        border: 1px solid $granite-gray;
-        color: $granite-gray;
-    }
-    &__button--primary:focus {
-        border: 1px solid $quick-silver;
-        color: $quick-silver;
-    }
-
-    /* Newsletter */
-
-    &__newsletter-container {
-    }
-
-    &__newsletter {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background-color: $smoky-black;
-        color: $white;
-        font-family: $old-standard;
-        height: 30vh;
-        width: 90%;
-        padding-bottom: 2rem;
-    }
-    &__newsletter-title {
-        font-weight: $old-bold;
-        font-size: $xx-large;
-        padding-left: 4rem;
-        padding-bottom: 1.5rem;
-    }
-    &__newsletter-paragraph {
-        font-family: $old-standard;
-        padding-left: 4rem;
-        padding-bottom: 0.7rem;
-    }
-    &__newsletter-input-container {
-        padding: 0.4rem 0 0 4rem;
-    }
-    &__newsletter-input {
-        font-family: $raleway;
-        font-size: $small;
-        font-weight: $raleway-regular;
-        color: $smoky-black;
-        background-color: $white;
-        padding: 0.5rem 5rem 0.5rem 0;
-        border: none;
-        // margin-top: 0.4rem;
-    }
-    &__newsletter-bt-container {
-    }
-    &__newsletter-bt {
-    }
-
-    /* Foto */
-    &__photo {
-        flex-basis: 60vw;
-        // padding-top: 5rem;
-    }
-    &__photo-img {
+        flex-direction: row;
         height: 90vh;
+        &__text-container {
+            flex-basis: 45vw;
+            color: $smoky-black;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        &__text {
+        }
+        &__title {
+            font-family: $old-standard;
+            font-weight: $old-bold;
+            font-size: $xxx-large;
+            text-transform: uppercase;
+            padding: 3rem 5rem 1.5rem 4rem;
+        }
+        &__paragraph {
+            font-family: $raleway;
+            font-size: $large;
+            font-weight: $raleway-regular;
+            padding: 0 10rem 1.5rem 4rem;
+            line-height: 1.6;
+            color: $granite-gray;
+        }
+
+        /* Newsletter */
+
+        &__newsletter-container {
+            display: flex;
+            flex-direction: row;
+            height: 30vh;
+        }
+
+        &__newsletter {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: $smoky-black;
+            color: $white;
+            font-family: $old-standard;
+            width: 90%;
+            padding-bottom: 2rem;
+        }
+        &__newsletter-title {
+            font-weight: $old-bold;
+            font-size: $xx-large;
+            padding-left: 4rem;
+            padding-bottom: 1.5rem;
+        }
+        &__newsletter-paragraph {
+            font-family: $old-standard;
+            padding-left: 4rem;
+            padding-bottom: 0.7rem;
+        }
+        &__newsletter-input-container {
+            padding: 0.4rem 0 0 4rem;
+        }
+        &__newsletter-input {
+            font-family: $raleway;
+            font-size: $small;
+            font-weight: $raleway-regular;
+            color: $smoky-black;
+            background-color: $white;
+            padding: 0.5rem 5rem 0.5rem 0;
+            border: none;
+        }
+
+        /* Button newsletter */
+
+        &__newsletter-bt-container {
+            height: 30vh;
+            width: 10%;
+            color: $smoky-black;
+            font-family: $old-standard;
+            font-weight: $old-bold;
+            background-color: $white;
+            border: none;
+        }
+        &__newsletter-text-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: rotate(90deg);
+            font-size: $x-large;
+        }
+        &__newsletter-text-button:hover {
+            color: $granite-gray;
+        }
+        &__newsletter-text-button:focus {
+            color: $quick-silver;
+        }
+        &__newsletter-button-link {
+            text-decoration: none;
+        }
+        &__newsletter-button-link:visited {
+            color: $smoky-black;
+        }
+    }
+}
+
+/* Monitores de 768px*/
+@media screen and (max-width: 768px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+        &__text-container {
+            color: $smoky-black;
+            display: flex;
+            flex-direction: column;
+            order: 2;
+        }
+        &__text {
+        }
+        &__title {
+            font-family: $old-standard;
+            font-weight: $old-bold;
+            font-size: $xxx-large;
+            text-transform: uppercase;
+            padding: 1rem 5rem 1.5rem 4rem;
+        }
+        &__paragraph {
+            font-family: $raleway;
+            font-size: $large;
+            font-weight: $raleway-regular;
+            padding: 0 10rem 1.5rem 4rem;
+            line-height: 1.6;
+            color: $granite-gray;
+        }
+
+        /* Newsletter */
+
+        &__newsletter-container {
+            display: flex;
+            flex-direction: row;
+            height: 25vh;
+        }
+
+        &__newsletter {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: $smoky-black;
+            color: $white;
+            font-family: $old-standard;
+            width: 90%;
+            padding-bottom: 2rem;
+        }
+        &__newsletter-title {
+            font-weight: $old-bold;
+            font-size: $xx-large;
+            padding-left: 4rem;
+            padding-bottom: 1.5rem;
+        }
+        &__newsletter-paragraph {
+            font-family: $old-standard;
+            padding-left: 4rem;
+            padding-bottom: 0.7rem;
+        }
+        &__newsletter-input-container {
+            padding: 0.4rem 0 0 4rem;
+        }
+        &__newsletter-input {
+            font-family: $raleway;
+            font-size: $small;
+            font-weight: $raleway-regular;
+            color: $smoky-black;
+            background-color: $white;
+            padding: 0.5rem 5rem 0.5rem 0;
+            border: none;
+        }
+
+        /* Button newsletter */
+
+        &__newsletter-bt-container {
+            height: 25vh;
+            width: 10%;
+            color: $smoky-black;
+            font-family: $old-standard;
+            font-weight: $old-bold;
+            background-color: $white;
+            border: none;
+        }
+        &__newsletter-text-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: rotate(90deg);
+            font-size: $x-large;
+        }
+        &__newsletter-text-button:hover {
+            color: $granite-gray;
+        }
+        &__newsletter-text-button:focus {
+            color: $quick-silver;
+        }
+        &__newsletter-button-link {
+            text-decoration: none;
+        }
+        &__newsletter-button-link:visited {
+            color: $smoky-black;
+        }
+    }
+}
+
+/* Celuares */
+@media screen and (max-width: 375px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+        &__text-container {
+            color: $smoky-black;
+            display: flex;
+            flex-direction: column;
+            order: 2;
+        }
+        &__text {
+        }
+        &__title {
+            font-family: $old-standard;
+            font-weight: $old-bold;
+            font-size: $xx-large;
+            text-transform: uppercase;
+            padding: 2rem 1.2rem 1rem 1.2rem;
+        }
+        &__paragraph {
+            font-family: $raleway;
+            font-size: $medium;
+            font-weight: $raleway-regular;
+            padding: 0 1.2rem 1.5rem 1.2rem;
+            line-height: 1.6;
+            color: $granite-gray;
+        }
+
+        /* Newsletter */
+
+        &__newsletter-container {
+            display: flex;
+            flex-direction: row;
+            height: 20vh;
+        }
+
+        &__newsletter {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: $smoky-black;
+            color: $white;
+            font-family: $old-standard;
+            width: 90%;
+            padding-bottom: 0;
+        }
+        &__newsletter-title {
+            font-weight: $old-bold;
+            font-size: $x-large;
+            padding-left: 1.2rem;
+            padding-bottom: 0.8rem;
+        }
+        &__newsletter-paragraph {
+            font-family: $old-standard;
+            padding-left: 1.2rem;
+            padding-bottom: 0.7rem;
+        }
+        &__newsletter-input-container {
+            padding: 0 0 0 1.2rem;
+        }
+        &__newsletter-input {
+            font-family: $raleway;
+            font-size: $small;
+            font-weight: $raleway-regular;
+            color: $smoky-black;
+            background-color: $white;
+            padding: 0.5rem 5rem 0.5rem 0;
+            border: none;
+        }
+
+        /* Button newsletter */
+
+        &__newsletter-bt-container {
+            height: 20vh;
+            width: 10%;
+            color: $smoky-black;
+            font-family: $old-standard;
+            font-weight: $old-bold;
+            background-color: $white;
+            border: none;
+        }
+        &__newsletter-text-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: rotate(90deg);
+            font-size: $medium;
+        }
+        &__newsletter-text-button:hover {
+            color: $granite-gray;
+        }
+        &__newsletter-text-button:focus {
+            color: $quick-silver;
+        }
+        &__newsletter-button-link {
+            text-decoration: none;
+        }
+        &__newsletter-button-link:visited {
+            color: $smoky-black;
+        }
     }
 }

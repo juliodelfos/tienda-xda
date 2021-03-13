@@ -1,42 +1,153 @@
 /* Navigation */
 
-.navbar {
-    display: flex;
-    align-items: center;
-    background-color: $white;
-    height: 10vh;
-    &__brand-container {
-        width: 6rem;
-        height: 10vh;
-    }
-    &__brand {
+/* 769 a 1500 en adelante */
+@media screen and (max-width: 1500px) {
+    .navbar {
         display: flex;
-        justify-content: center;
         align-items: center;
-        font-family: $old-standard;
-        font-size: $x-large;
-        color: $white;
-        background-color: $smoky-black;
-        text-decoration: none;
-        width: 100%;
-        height: 100%;
+        background-color: $white;
+        height: 10vh;
+        &__icon-container {
+            
+        }
+        &__icon {
+            display: none;
+        }
+        &__brand-container {
+            width: 6rem;
+            height: 10vh;
+        }
+        &__brand {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: $old-standard;
+            font-size: $x-large;
+            color: $white;
+            background-color: $smoky-black;
+            text-decoration: none;
+            width: 100%;
+            height: 100%;
+        }
+        &__list {
+            margin-left: auto;
+            font-family: $raleway;
+            color: $smoky-black;
+            font-size: $medium;
+            font-weight: $raleway-bold;
+            list-style-type: none;
+            text-decoration: none;
+        }
+        &__link {
+            text-decoration: none;
+        }
+        &__link:visited {
+            color: $smoky-black;
+        }
+        &__link--mr {
+            padding: 0 2rem;
+        }
     }
-    &__list {
-        margin-left: auto;
-        font-family: $raleway;
-        color: $smoky-black;
-        font-size: $medium;
-        font-weight: $raleway-bold;
-        list-style-type: none;
-        text-decoration: none;
+}
+
+/* Tablets */
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        background-color: $white;
+        height: 10vh;
+        &__icon-container {
+        }
+        &__icon {
+            // display: none;
+
+        }
+        &__brand-container {
+            width: 6rem;
+            height: 10vh;
+        }
+        &__brand {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: $old-standard;
+            font-size: $x-large;
+            color: $white;
+            background-color: $smoky-black;
+            text-decoration: none;
+            width: 100%;
+            height: 100%;
+        }
+        &__list {
+            margin-left: auto;
+            font-family: $raleway;
+            color: $smoky-black;
+            font-size: $medium;
+            font-weight: $raleway-bold;
+            list-style-type: none;
+            text-decoration: none;
+        }
+        &__link {
+            text-decoration: none;
+        }
+        &__link:visited {
+            color: $smoky-black;
+        }
+        &__link--mr {
+            padding: 0 2rem;
+        }
     }
-    &__link {
-        text-decoration: none;
-    }
-    &__link:visited {
-        color: $smoky-black;
-    }
-    &__link--mr {
-        padding: 0 2rem;
+}
+
+/* Celulares */
+
+@media screen and (max-width: 375px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        background-color: $white;
+        height: 10vh;
+        padding-right: 1.2rem;
+        &__icon-container {
+        }
+        &__icon {
+        }
+        &__brand-container {
+            width: 5rem;
+            height: 10vh;
+        }
+        &__brand {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: $old-standard;
+            font-size: $x-large;
+            color: $white;
+            background-color: $smoky-black;
+            text-decoration: none;
+            width: 100%;
+            height: 100%;
+        }
+        &__list {
+            margin-left: auto;
+            font-family: $raleway;
+            color: $smoky-black;
+            font-size: $medium;
+            font-weight: $raleway-bold;
+            list-style-type: none;
+            text-decoration: none;
+        }
+        &__link {
+            text-decoration: none;
+            display: none;
+        }
+        &__link:visited {
+            color: $smoky-black;
+        }
+        &__link--mr {
+            padding: 0 2rem;
+        }
     }
 }

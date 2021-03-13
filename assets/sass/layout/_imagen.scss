@@ -1,8 +1,33 @@
 /* Photos */
 
+/* 769 a 1500 en adelante */
+@media screen and (max-width: 1500px) {
 .photo {
     flex-basis: 55vw;
     &__img {
         height: 90vh;
+    }
+}
+}
+
+@media screen and (max-width: 768px) {
+    .photo {
+        order: 1;
+        &__img {
+            width: 100vw;
+            height: 30vh;
+            object-fit: cover;
+        }
+    }
+}
+
+/* Celuares */
+@media screen and (max-width: 375px) {
+    .photo {
+        // flex-basis: 100vw;
+        &__img {
+            height: 40vh;
+            width: 100%;
+        }
     }
 }

@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/49b435f928.js" crossorigin="anonymous"></script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap" rel="stylesheet">
@@ -22,10 +24,13 @@
             <a class="navbar__brand" href="#">XDA</a>
         </div>
         <div class="navbar__list">
-            <a class="navbar__link navbar__link--mr " href="#">Mujer</a>
-            <a class="navbar__link navbar__link--mr " href="#">Hombre</a>
-            <a class="navbar__link navbar__link--mr " href="#">Accesorios</a>
+            <a class="navbar__link navbar__link--mr" href="#">Mujer</a>
+            <a class="navbar__link navbar__link--mr" href="#">Hombre</a>
+            <a class="navbar__link navbar__link--mr" href="#">Accesorios</a>
             <a class="navbar__link navbar__link--mr" href="#">Blog</a>
+
+            <span class="navbar__icon-container"><i class="fas fa-bars navbar__icon"></i></span>
+            </a>
         </div>
     </nav>
 
@@ -38,8 +43,8 @@
                 <p class="main__paragraph">Sed ut perspiciatis omnis iste natus error sit voluptatem accusantium
                     doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo anventore veritatis et quasi
                     architecto beatae vitae dicta sunt explicabo.</p>
-                <div class="main__button-container">
-                    <button class="main__button main__button--primary" type="button">Ir a tienda</button>
+                <div class="button__container">
+                    <button class="button__bt button__bt--primary" type="button">Ir a tienda</button>
                 </div>
             </div>
             <!-- Newsletter -->
@@ -48,21 +53,22 @@
                     <h2 class="main__newsletter-title">Newsletter</h2>
                     <p class="main__newsletter-paragraph">Correo Electrónico</p>
                     <div class="main__newsletter-input-container">
-                        <input class="main__newsletter-input" type="email"
-                            placeholder="Ingresa tu correo electrónico">
+                        <input class="main__newsletter-input" type="email" placeholder="Ingresa tu correo electrónico">
                     </div>
                 </div>
-                <!-- <div class="main__newsletter-bt-container">
-                    <button type="button" class="main__newsletter-bt"></button>
-                </div> -->
+                <button class="main__newsletter-bt-container">
+                    <p class="main__newsletter-text-button">Suscribir</p>
+                </button>
             </div>
         </section>
 
         <!-- Foto -->
-        <section class="main__photo">
-            <img class="main__photo-img" alt="" src="/assets/images/principal.jpg">
+        <section class="photo">
+            <img class="photo__img" alt="" src="/assets/images/principal.jpg">
         </section>
     </main>
+
+    <script src="/assets/js/script.js"></script>
 
 </body>
 
