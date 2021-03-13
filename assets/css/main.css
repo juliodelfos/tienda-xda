@@ -215,4 +215,12 @@ th {
   height: 90vh;
 }
 
+/* Photos */
+.photo {
+  flex-basis: 55vw;
+}
+.photo__img {
+  height: 90vh;
+}
+
 /*# sourceMappingURL=main.css.map */
