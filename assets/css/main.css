@@ -83,15 +83,12 @@ th {
 
 /* Navigation */
 /* 769 a 1500 en adelante */
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 2000px) {
   .navbar {
     display: flex;
     align-items: center;
     background-color: #fff;
     height: 10vh;
-  }
-  .navbar__icon {
-    display: none;
   }
   .navbar__brand-container {
     width: 6rem;
@@ -172,7 +169,7 @@ th {
   }
 }
 /* Celulares */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 435px) {
   .navbar {
     display: flex;
     align-items: center;
@@ -197,6 +194,7 @@ th {
     height: 100%;
   }
   .navbar__list {
+    display: none;
     margin-left: auto;
     font-family: "Raleway", sans-serif;
     color: #0c0910;
@@ -216,13 +214,13 @@ th {
     padding: 0 2rem;
   }
 }
+/* */
 /* Main section */
 /* 769 a 1500 en adelante */
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 2000px) {
   .main {
     display: flex;
     flex-direction: row;
-    height: 90vh;
     /* Newsletter */
     /* Button newsletter */
   }
@@ -287,7 +285,6 @@ th {
     border: none;
   }
   .main__newsletter-bt-container {
-    height: 30vh;
     width: 10%;
     color: #0c0910;
     font-family: "Old Standard TT", serif;
@@ -413,7 +410,7 @@ th {
   }
 }
 /* Celuares */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 435px) {
   .main {
     display: flex;
     flex-direction: column;
@@ -530,7 +527,7 @@ th {
   }
 }
 /* Celuares */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 435px) {
   .photo__img {
     height: 40vh;
     width: 100%;

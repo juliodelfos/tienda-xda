@@ -1,17 +1,16 @@
 /* Navigation */
 
 /* 769 a 1500 en adelante */
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 2000px) {
     .navbar {
         display: flex;
         align-items: center;
         background-color: $white;
         height: 10vh;
         &__icon-container {
-            
         }
         &__icon {
-            display: none;
+            //display: none;
         }
         &__brand-container {
             width: 6rem;
@@ -62,7 +61,6 @@
         }
         &__icon {
             // display: none;
-
         }
         &__brand-container {
             width: 6rem;
@@ -103,7 +101,7 @@
 
 /* Celulares */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 435px) {
     .navbar {
         display: flex;
         align-items: center;
@@ -131,6 +129,7 @@
             height: 100%;
         }
         &__list {
+            display: none;
             margin-left: auto;
             font-family: $raleway;
             color: $smoky-black;
@@ -151,3 +150,51 @@
         }
     }
 }
+
+/* */
+
+// .nav2 {
+//     margin-left: autos;
+//     .menu-content {
+//         font-family: $raleway;
+//         padding: 0 0 0 50px;
+//     }
+
+//     .collapsible-menu {
+//         background-color: $white;
+//         padding: 0.8rem 0;
+
+//         ul {
+//             list-style-type: none;
+//             padding: 0;
+//         }
+//         a {
+//             display: block;
+//             padding: 10px;
+//             text-decoration: none;
+//         }
+
+//         label {
+//             font-family: $raleway;
+//             font-size: 1.4rem;
+//             display: block;
+//             cursor: pointer;
+//             padding: 10px 0 10px 50px;
+//         }
+//     }
+
+//     input#menu {
+//         display: none;
+//     }
+
+//     .menu-content {
+//         max-height: 0;
+//         overflow: hidden;
+//         font-family: $raleway;
+//         padding: 0 0 0 50px;
+//     }
+
+//     input:checked ~ .menu-content {
+//         max-height: 100%;
+//     }
+// }

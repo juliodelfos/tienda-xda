@@ -1,11 +1,11 @@
 /* Main section */
 
 /* 769 a 1500 en adelante */
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 2000px) {
     .main {
         display: flex;
         flex-direction: row;
-        height: 90vh;
+        //height: 90vh;
         &__text-container {
             flex-basis: 45vw;
             color: $smoky-black;
@@ -76,7 +76,7 @@
         /* Button newsletter */
 
         &__newsletter-bt-container {
-            height: 30vh;
+            //height: 30vh;
             width: 10%;
             color: $smoky-black;
             font-family: $old-standard;
@@ -212,7 +212,7 @@
 }
 
 /* Celuares */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 435px) {
     .main {
         display: flex;
         flex-direction: column;
