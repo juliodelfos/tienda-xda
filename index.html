@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/49b435f928.js" crossorigin="anonymous"></script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap" rel="stylesheet">
@@ -14,20 +16,37 @@
     <title>Tienda XDA</title>
 </head>
 
-<body>
+<body class="body">
 
-    <!-- Navbar OK -->
+    <!--Navbar OK -->
     <nav class="navbar">
         <div class="navbar__brand-container">
             <a class="navbar__brand" href="#">XDA</a>
         </div>
         <div class="navbar__list">
-            <a class="navbar__link navbar__link--mr " href="#">Mujer</a>
-            <a class="navbar__link navbar__link--mr " href="#">Hombre</a>
-            <a class="navbar__link navbar__link--mr " href="#">Accesorios</a>
+            <a class="navbar__link navbar__link--mr" href="#">Mujer</a>
+            <a class="navbar__link navbar__link--mr" href="#">Hombre</a>
+            <a class="navbar__link navbar__link--mr" href="#">Accesorios</a>
             <a class="navbar__link navbar__link--mr" href="#">Blog</a>
+            <!-- <span class="navbar__icon-container"><i class="fas fa-bars navbar__icon"></i></span> -->
         </div>
     </nav>
+
+    <!-- <nav class="nav2">
+        <div class="collapsible-menu">
+            <input type="checkbox" id="menu">
+            <label for="menu"><i class="fas fa-bars"></i></label>
+            <div class="menu-content">
+                <ul>
+                    <li><a href="#" class="navbar__link navbar__link--mr">Mujer</a></li>
+                    <li><a href="#" class="navbar__link navbar__link--mr">Hombre</a></li>
+                    <li><a href="#" class="navbar__link navbar__link--mr">Accesorios</a></li>
+                    <li><a href="#" class="navbar__link navbar__link--mr">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav> -->
+
 
     <!-- Main section -->
     <main class="main">
@@ -62,6 +81,8 @@
             <img class="photo__img" alt="" src="/assets/images/principal.jpg">
         </section>
     </main>
+
+    <script src="/assets/js/script.js"></script>
 
 </body>
 

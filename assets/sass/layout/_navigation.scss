@@ -46,3 +46,203 @@
         padding: 0 2rem;
     }
 }
+/* Navigation */
+
+/* 769 a 1500 en adelante */
+@media screen and (max-width: 2000px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        background-color: $white;
+        height: 10vh;
+        &__icon-container {
+        }
+        &__icon {
+            //display: none;
+        }
+        &__brand-container {
+            width: 6rem;
+            height: 10vh;
+        }
+        &__brand {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: $old-standard;
+            font-size: $x-large;
+            color: $white;
+            background-color: $smoky-black;
+            text-decoration: none;
+            width: 100%;
+            height: 100%;
+        }
+        &__list {
+            margin-left: auto;
+            font-family: $raleway;
+            color: $smoky-black;
+            font-size: $medium;
+            font-weight: $raleway-bold;
+            list-style-type: none;
+            text-decoration: none;
+        }
+        &__link {
+            text-decoration: none;
+        }
+        &__link:visited {
+            color: $smoky-black;
+        }
+        &__link--mr {
+            padding: 0 2rem;
+        }
+    }
+}
+
+/* Tablets */
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        background-color: $white;
+        height: 10vh;
+        &__icon-container {
+        }
+        &__icon {
+            // display: none;
+        }
+        &__brand-container {
+            width: 6rem;
+            height: 10vh;
+        }
+        &__brand {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: $old-standard;
+            font-size: $x-large;
+            color: $white;
+            background-color: $smoky-black;
+            text-decoration: none;
+            width: 100%;
+            height: 100%;
+        }
+        &__list {
+            margin-left: auto;
+            font-family: $raleway;
+            color: $smoky-black;
+            font-size: $medium;
+            font-weight: $raleway-bold;
+            list-style-type: none;
+            text-decoration: none;
+        }
+        &__link {
+            text-decoration: none;
+        }
+        &__link:visited {
+            color: $smoky-black;
+        }
+        &__link--mr {
+            padding: 0 2rem;
+        }
+    }
+}
+
+/* Celulares */
+
+@media screen and (max-width: 435px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        background-color: $white;
+        height: 10vh;
+        padding-right: 1.2rem;
+        &__icon-container {
+        }
+        &__icon {
+        }
+        &__brand-container {
+            width: 5rem;
+            height: 10vh;
+        }
+        &__brand {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: $old-standard;
+            font-size: $x-large;
+            color: $white;
+            background-color: $smoky-black;
+            text-decoration: none;
+            width: 100%;
+            height: 100%;
+        }
+        &__list {
+            display: none;
+            margin-left: auto;
+            font-family: $raleway;
+            color: $smoky-black;
+            font-size: $medium;
+            font-weight: $raleway-bold;
+            list-style-type: none;
+            text-decoration: none;
+        }
+        &__link {
+            text-decoration: none;
+            display: none;
+        }
+        &__link:visited {
+            color: $smoky-black;
+        }
+        &__link--mr {
+            padding: 0 2rem;
+        }
+    }
+}
+
+/* */
+
+// .nav2 {
+//     margin-left: autos;
+//     .menu-content {
+//         font-family: $raleway;
+//         padding: 0 0 0 50px;
+//     }
+
+//     .collapsible-menu {
+//         background-color: $white;
+//         padding: 0.8rem 0;
+
+//         ul {
+//             list-style-type: none;
+//             padding: 0;
+//         }
+//         a {
+//             display: block;
+//             padding: 10px;
+//             text-decoration: none;
+//         }
+
+//         label {
+//             font-family: $raleway;
+//             font-size: 1.4rem;
+//             display: block;
+//             cursor: pointer;
+//             padding: 10px 0 10px 50px;
+//         }
+//     }
+
+//     input#menu {
+//         display: none;
+//     }
+
+//     .menu-content {
+//         max-height: 0;
+//         overflow: hidden;
+//         font-family: $raleway;
+//         padding: 0 0 0 50px;
+//     }
+
+//     input:checked ~ .menu-content {
+//         max-height: 100%;
+//     }
+// }
